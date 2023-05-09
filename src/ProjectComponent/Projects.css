@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+.Project{
+   background-color: #d9021c;
+   color: white;
+   padding: 5em 5em;
+}
+.Project .h1{
+    text-align: center;
+}
+.Projects_container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+.Project1,.Project2{
+    background-color: white;
+    color: #d9021c;
+    padding: 2em 2em;
+    border-radius: 10px;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.year{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: black;
+}
+.year p{
+    font-weight: 400;
+    color: black;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+}
+.work{
+    color: black;
+    margin-left: -1.2em;
+    padding-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .Projects_container{
+        flex-wrap:wrap!important;
+    }
+    .h1 span{
+        display: none;
+    }
+    .Project {
+        padding: 3em 1em 3em 1em;
+        margin: 0 auto;
+    }
+    .Project1 h1, .Project2 h1{
+        font-size: 1.5em;
+        padding-bottom: 10px;
+    }
+}

@@ -1,0 +1,55 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+  .skill {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 5em 6em;
+  }
+
+  .skill_left {
+      flex: 0.5;
+  }
+
+  .skill_left img {
+      max-width: 100%;
+  }
+
+  .skill_right {
+      flex: 0.5;
+      padding-top: 1.3em;
+      padding-bottom: 4em;
+  }
+
+  .skill_right h1 {
+      padding-bottom: 1em;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+  }
+
+  .myskill_container h3 {
+      padding: 0.5em 0;
+      font-family: 'Montserrat', sans-serif;    
+      font-weight: 500;
+  }
+  .MuiLinearProgress-bar{
+    background-color:#d9021c !important;
+  }
+
+  /* tab */
+  @media only screen and (max-width: 768px) {
+  .skill {
+padding: 0;
+  }
+}
+
+  /* mobile */
+  @media only screen and (max-width: 992px) {
+    .skill {
+flex-direction: column;
+    }
+    .skill_right {
+        width: 90%;
+        margin: 0 auto;
+    }
+  }
